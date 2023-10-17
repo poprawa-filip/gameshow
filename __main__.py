@@ -17,7 +17,7 @@ def main():
     players.append(contestant)
 
     player = input("Player's three name\n")
-    contestant = Player("Charlie", 3)
+    contestant = Player(player, 3)
     players.append(contestant)
 
     print("Behold, our contestants!")
